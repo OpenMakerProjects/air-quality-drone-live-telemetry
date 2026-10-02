@@ -1,0 +1,21 @@
+{
+  "id": 823,
+  "title": "Air Quality Drone Live Telemetry",
+  "repository_slug": "air-quality-drone-live-telemetry",
+  "category": "Drones",
+  "platform": "ESP32",
+  "platform_family": "arduino",
+  "difficulty": "Intermediate",
+  "estimated_hours": 20,
+  "connectivity": "Wi-Fi",
+  "components": [
+    "camera",
+    "flight controller",
+    "optical flow sensor"
+  ],
+  "scope": "Build a drones prototype that uses camera, flight controller, optical flow sensor to stream position, battery, and sensor status. Include setup instructions, a circuit diagram, tested firmware, and sample output.",
+  "key_deliverable": "Live Telemetry demonstration with repeatable test steps",
+  "mode": "telemetry",
+  "entrypoint": "firmware/air-quality-drone-live-telemetry/air-quality-drone-live-telemetry.ino",
+  "roadmap_source": "openmaker-2100-project-roadmap.xlsx"
+}
